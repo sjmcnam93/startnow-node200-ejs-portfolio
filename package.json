@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjmcnam93/portfolio.git"
+  },
+  "author": "Stephen McNamara <sjmcnamara1993@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjmcnam93/portfolio/issues"
+  },
+  "homepage": "https://github.com/sjmcnam93/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "google-spreadsheet": "^2.0.5",
+    "morgan": "^1.9.0"
+  }
+}
