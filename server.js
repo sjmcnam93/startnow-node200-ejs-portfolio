@@ -19,17 +19,11 @@ app.set('views', './views');
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-    const data = {
-      person: {
-        firstName: 'Stephen',
-        lastName: 'McNamara',
-      }
-    }
-    res.render('index', data);
-  });
+    res.render('index');
+});
 
-app.get('/contact', (req, res) => {
-    res.render('contact');
+app.get('/index', (req, res) => {
+    res.render('index');
 });
 
 app.get('/thanks', (req, res) => {

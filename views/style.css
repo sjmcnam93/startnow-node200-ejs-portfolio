@@ -46,35 +46,11 @@ body {
 
 }
 
-#contactme {
-
-    color: #50ddb1;
-    background-color: transparent;
-    padding: 16px 23px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 15px;
-    outline-color: rgb(0, 0, 0);
-    font-size: 30px;
-    border: 2px solid #50ddb1;
-    transition: 0.5s ease-in-out;
-
-}
-
-#contactme:hover {
-
-    background-color: #50ddb0c7;
-    color:rgb(255, 255, 255);
-    box-shadow: 0px 0px 21px rgb(0, 155, 255);
-
-}
-
 #intro {
 
     text-overflow: auto;
     position: relative;
-    top: 35px;
+    top: 39px;
 
 }
 
@@ -91,7 +67,7 @@ body {
     color:  #50dbb1;
     transition: 0.5s ease-in-out;
     position: relative;
-    top: 65px;
+    top: 21px;
 
 }
 
@@ -99,7 +75,7 @@ body {
 
     background-color: #50ddb0c7;
     color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 21px rgb(0, 155, 255);
+    box-shadow: 0px 0px 21px rgb(0, 0, 255);
 
 }
 
@@ -116,7 +92,7 @@ body {
     color:  #50dbb1;
     transition: 0.5s ease-in-out;
     position: relative;
-    top: 65px;
+    top: 21px;
 
 }
 
@@ -124,7 +100,7 @@ body {
 
     background-color: #50ddb0c7;
     color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 21px rgb(0, 155, 255);
+    box-shadow: 0px 0px 21px rgb(0, 0, 255);
 
 }
 
@@ -141,7 +117,7 @@ body {
     padding-bottom: 12px;
     transition: 0.5s ease-in-out;
     position: relative;
-    top: 65px;
+    top: 21px;
 
 }
 
@@ -149,19 +125,18 @@ body {
 
     background-color: #50ddb0c7;
     color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 21px rgb(0, 155, 255);
+    box-shadow: 0px 0px 21px rgb(0, 0, 255);
 
 }
 
 #contactDiv {
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 450px;
+    position: relative;
+    top: 10px;
+    left: 37.6%;
+    width: 369px;
     padding: 45px;
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, 0.321);
     box-sizing: border-box;
     border-radius: 15px;
     color: white;
@@ -170,11 +145,11 @@ body {
 
 #contactTitle {
 
-    margin: 0 0 51px;
+    margin: 0 0 40px;
     padding: 0;
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 65px;
+    font-size: 45px;
     word-spacing: 5px;
 
 }
@@ -188,7 +163,7 @@ body {
 input {
 
     width: 100%;
-    padding: 15px 0;
+    padding: 15px 0px;
     font-size: 16px;
     margin-bottom: 30px;
     border: none;
@@ -249,7 +224,7 @@ input:valid, input:focus {
 
 #submit:hover {
 
-    box-shadow: 0px 0px 21px rgb(0, 155, 255);
+    box-shadow: 0px 0px 45px rgb(0, 0, 255);
 
 }
 
@@ -259,6 +234,31 @@ input:valid, input:focus {
     padding-top: 200px;
     text-align: center;
     color: white;
+
+}
+
+#returnHome {
+
+    color: #50ddb1;
+    background-color: transparent;
+    padding: 16px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    outline-color: rgb(0, 0, 0);
+    font-size: 30px;
+    border: 2px solid #50ddb1;
+    transition: 0.5s ease-in-out;
+    margin: 24px;
+
+}
+
+#returnHome:hover {
+
+    background-color: #50ddb0c7;
+    color:rgb(255, 255, 255);
+    box-shadow: 0px 0px 24px rgb(0, 0, 255);
 
 }
 

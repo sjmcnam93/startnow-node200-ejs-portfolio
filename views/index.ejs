@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html>
+
   <head>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Prata" rel="stylesheet">
@@ -14,28 +15,47 @@
   <body id="index">
 
     <div id="head">
-      <strong><%= person.firstName %> <mark id="Name"><%= person.lastName %></mark></strong>
+      <strong>Stephen <mark id="Name">McNamara</mark></strong>
     </div>
 
     <div id="title">
       Software Developer
     </div>
 
-    <br></br>
-
-    <a id="contactme" href="contact">Contact Me</a>
-
-    <br></br>
-
-    <div id="intro">Hi! I'm a passionate junior level javascript programmer that's eager to learn and grow my coding capabilities!</div>
-
-    <br></br>
-
     <a class="link" href="https://github.com/sjmcnam93" target="_blank"><i class="fa fa-github" aria-hidden="true" id="github"></i></a>
 
     <a class="link" href="https://www.linkedin.com/in/stephenjmcnamara/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" id="linkedIn"></i></a>
 
     <a href="/serve/PrintableResume.pdf" target="_blank"><i class="fa fa-file-text" aria-hidden="true" id="resume"></i></a>
+
+    <br />
+
+    <div id="intro">Hi! I'm a passionate junior level software developer whose eager to learn and advance my coding capabilities!</div>
+
+    <br />
+    <br />
+    <br />
+
+    <div id="contactDiv">
+      <h2 id="contactTitle">Contact <mark id="Name">Me</mark></h2>
+      <form action="/thanks" method="POST">
+        <div class="inputBox">
+            <input id="name" name="name" type="text" required="">
+            <label class="contactPage" for="name">Name</label>
+        </div>
+        <div class="inputBox">
+            <input id="email" name="email" type="text" required="">
+            <label class="contactPage" for="email">Email</label>
+        </div>
+        <div class="inputBox">
+            <input id="phoneNumber" name="phoneNumber" type="text" required="">
+            <label class="contactPage" for="phoneNumber">Phone Number</label>
+        </div>
+        <input id="submit" type="submit" />
+      </form>
+    </div>
+
+    <br />
 
   </body>
 
